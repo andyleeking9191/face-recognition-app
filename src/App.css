@@ -9,9 +9,18 @@ justify-content: center;
 
 .particles {
   position: fixed;
+  background: linear-gradient(to top, #000000 0%, rgb(2, 77, 83) 50%,  rgb(1, 111, 119) 100%);
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+.card {
+  background-color: rgba(4, 200, 222, 0.3);
+}
+
+.cardNoOpacity {
+  background-color: rgba(4, 200, 222);
 }
